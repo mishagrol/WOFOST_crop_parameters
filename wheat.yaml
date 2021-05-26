@@ -712,3 +712,46 @@ CropParameters:
             -  5.0
             - Saturated vernalization requirement
             - ['d']
+        Raj3765:
+            <<: *winterwheat
+            DLO:
+            - 14.6
+            - optimum daylength for development
+            - ['hr']
+            TSUMEM:
+            -  95
+            - temperature sum from sowing to emergence
+            - ['C.d']
+            TSUM1:
+            - 809
+            - temperature sum from emergence to anthesis
+            - ['C.d']
+            TSUM2:
+            -  614
+            - temperature sum from anthesis to maturity
+            - ['C.d']
+            RGRLAI:
+            - 0.0082
+            - maximum relative increase in LAI
+            - ['d-1']
+            EFFTB:
+            - [ 0.0, 0.550,
+               40.0, 0.550]
+            - initial light-use efficiency single leaf as function of daily mean temperature
+            - ['C', 'kg.ha-1.hr-1.J-1.m2.s1']
+            CVL:
+            - 0.720
+            - efficiency of conversion into leaves
+            - ['mass.mass-1']
+            CVO:
+            - 0.709
+            - efficiency of conversion into storage organs
+            - ['mass.mass-1']
+            CVR:
+            - 0.694
+            - efficiency of conversion into roots
+            - ['mass.mass-1']
+            CVS:
+            - 0.662
+            - efficiency of conversion into stems
+            - ['mass.mass-1']
